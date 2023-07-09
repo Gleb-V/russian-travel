@@ -1,0 +1,15 @@
+.places:first-child{
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .places:first-child{
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places:first-child{
+    margin-top: 64px;
+  }
+}
