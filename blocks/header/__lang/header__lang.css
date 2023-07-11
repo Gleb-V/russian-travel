@@ -1,13 +1,14 @@
-.header__lang-list {
+.header__lang {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  gap: 18px;
   margin: 46px 0 0;
   padding: 0;
 }
 
 @media screen and (max-width: 320px) {
-  .header__lang-list {
+  .header__lang {
     margin: 30px 0 0;
   }
 }
